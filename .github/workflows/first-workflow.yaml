@@ -12,7 +12,7 @@ jobs:
           node -v
           npm -v
   parallel-job-windows:
-   runs-on: windows-latest
+   runs-on: macos-latest
    steps:
     - name: View OS Version
       run: systeminfo
